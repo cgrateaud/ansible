@@ -1,0 +1,7 @@
+---
+  - hosts: lnx
+    task:
+    - name: create a file info
+      file:
+      dest: '{{path_file}}'
+      state: '{{state_file}}'
